@@ -52,7 +52,7 @@ footer {
   /* TODO: MODULE_CARDS */
   /* 1. Fill in the required properties. */
   position:relative;
-  height: 50vh;
+  height: 25rem;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -126,14 +126,27 @@ footer {
 .adventure-card {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  height:18rem;
+  border: solid 1px gray;
+  overflow:hidden;
+  
 }
 .adventure-card img {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  height:80%;
+  width:100%;
+  object-fit: cover;
+  transition: all .3s;
+   
+   
 }
 .adventure-card img:hover {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  filter:brightness(50%); 
+  
+
 }
 
 /* ================================== */
@@ -144,15 +157,21 @@ footer {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
 
+ 
 }
 
 .adventure-card-image {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  object-fit: cover;
+  transition: all .3s;
+  height:100%;
+  width:100%;
 }
 .adventure-card-image:hover {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  filter:brightness(50%); 
 }
 .experience-content ul li {
   margin-left: 16px;
